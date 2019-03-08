@@ -74,18 +74,17 @@
     <!-- REVEAL PRESENTATION-->
     <div class="reveal">
       <div class="slides">
-        <section >
+        <section class="bg-dark" data-transition="slide-in fade-out" >
           <h2>Slide 1</h2>
-            <img src="https://via.placeholder.com/1080x600" class="img-fluid">
+         
         </section>
-        <section >
+        <section class="bg-dark" data-transition="slide-in fade-out" >
           <h2>Slide 2</h2>
-                        <img src="https://via.placeholder.com/1080x600" class="img-fluid">
-
+                        
         </section>
 
-        <section >
-                        <img src="https://via.placeholder.com/1080x600" class="img-fluid">
+        <section class="bg-dark" data-transition="slide-in fade-out">
+                       
 
           <h2>Slide 3</h2>
         </section>
@@ -302,18 +301,18 @@
       embedded: true,
       autoSlide: 3000,
       backgroundTransition: 'convex',
-      transition: 'default', // none/fade/slide/convex/concave/zoom
+      //transition: 'default', // none/fade/slide/convex/concave/zoom
 
       // More info https://github.com/hakimel/reveal.js#dependencies
-      dependencies: [
-        { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
-        { src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
-        { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
-        { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
-        { src: 'plugin/search/search.js', async: true },
-        { src: 'plugin/zoom-js/zoom.js', async: true },
-        { src: 'plugin/notes/notes.js', async: true }
-      ]
+//      dependencies: [
+//        { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+//        { src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+//        { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+//        { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+//        { src: 'plugin/search/search.js', async: true },
+//        { src: 'plugin/zoom-js/zoom.js', async: true },
+//        { src: 'plugin/notes/notes.js', async: true }
+//      ]
     });
 
   </script>
